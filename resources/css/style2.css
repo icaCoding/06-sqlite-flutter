@@ -1,0 +1,70 @@
+@media screen and (max-width: 991.98px) {
+    .wrapper {
+        width: 90%;
+    }
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    header .menu {
+        width: 100%;
+        margin: 0;
+    }
+    header .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+    header .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+    article {
+        display: block;
+    }
+    article img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .karyanya {
+        width: 50%;
+    }
+    footer {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+}
+.tombol-menu {
+    position: absolute;
+    top: 1.7rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+}
+.tombol-menu .garis {
+    height: 3px;
+    background-color: #706fd3;
+}
+@media screen and (max-width: 991.98px) {
+    .logo a {
+        display: inline;
+    }
+    .tombol-menu {
+        display: flex;
+    }
+    header .menu {
+        display: none;
+    }
+    header .menu.active {
+        display: flex;
+    }
+    nav ul li {
+        width:100%;;
+    }
+}
